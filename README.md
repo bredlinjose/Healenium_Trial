@@ -1,12 +1,10 @@
+Healenium
+
 ♦ Open the Docker Desktop UI application and the Docker Engine needs to be up and running.
 
-♦ Open Terminal under the infra folder and run the below command
-  docker-compose up -d
-  This will start healenium, postgres-db and selector-imitator images in Docker.
+♦ Open Terminal under the infra folder and run the command docker-compose up -d. This will start healenium, postgres-db and selector-imitator images in Docker.
 
-♦ Check if all images are running properly in the command prompt by using the below command 
-  docker container ps
-  Also, we can check from the Docker Desktop UI application.
+♦ Check if all images are running properly in the command prompt by using the command docker container ps. Also, we can check from the Docker Desktop UI application.
 
 ♦ Choose the test  suite or test scripts you want to execute and Click the Run button in your IDE.
 
